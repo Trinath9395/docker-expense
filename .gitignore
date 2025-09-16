@@ -1,0 +1,42 @@
+# Terraform local dirs
+**/.terraform/
+
+# Lock file
+**/.terraform.lock.hcl
+
+# State files
+**/*.tfstate
+**/*.tfstate.*
+terraform.tfstate.backup
+*.tfplan
+
+# Sensitive variable files
+**/*.tfvars
+**/*.tfvars.json
+
+# Crash logs
+crash.log
+crash.*.log
+# Dependency folders
+node_modules/
+build/
+dist/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE/editor configs
+.vscode/
+.idea/
+
+# Sensitive files
+.env
+secret.txt
+
+# Large media (optional)
+frontend/code/static/media/*.png
